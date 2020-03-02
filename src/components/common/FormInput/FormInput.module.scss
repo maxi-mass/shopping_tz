@@ -1,0 +1,20 @@
+.text_input_wrap {
+  display: flex;
+  align-items: center;
+  .text_input {
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #d4d2d2;
+    border-radius: 5px;
+    font-size: 0.9em;
+    &.error {
+      border-color: rgb(183, 28, 28);
+    }
+  }
+  .error_message {
+    color: rgb(183, 28, 28);
+    margin-left: 15px;
+  }
+}

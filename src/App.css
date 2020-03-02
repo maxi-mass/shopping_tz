@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.app-wrapper {
+  font-size: 15px;
+  font-family: "Roboto";
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 13px;
+  }
+}

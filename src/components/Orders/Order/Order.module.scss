@@ -1,0 +1,8 @@
+.order {
+  & > td:first-child {
+    font-weight: bold;
+  }
+  & > td:last-child {
+    font-weight: bold;
+  }
+}

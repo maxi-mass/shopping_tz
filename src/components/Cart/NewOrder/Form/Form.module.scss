@@ -1,0 +1,21 @@
+.form {
+  & > div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    .error_msg {
+      margin-left: 10px;
+      color: red;
+    }
+  }
+/*  .inner_wrap {
+    display: flex;
+    align-items: end;
+    .fields {
+      margin-right: 30px;
+      & > div {
+        margin-bottom: 10px
+      }
+    }
+  }*/
+}

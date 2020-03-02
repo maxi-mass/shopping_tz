@@ -1,0 +1,22 @@
+.goods_list {
+  list-style: none;
+}
+
+.good_item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d4d2d2;
+}
+
+.good_item img {
+  height: 50px;
+}
+
+.goods_list__add_to_cart {
+  cursor: pointer;
+}

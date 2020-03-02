@@ -1,0 +1,24 @@
+.orders {
+  .orders_table {
+    border-collapse: collapse;
+    width: 100%;
+      thead {
+        tr {
+          th {
+            font-size: 1.05em;
+            border: 1px solid black;
+            text-align: left;
+            padding: 10px 20px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 10px 20px;
+            border: 1px solid black;
+          }
+        }
+      }
+  }
+}

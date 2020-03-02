@@ -1,0 +1,16 @@
+.cart_icon {
+  height: 20px;
+  width: 20px;
+  background-image: url("../../../assets/icons/remove.png");
+  position: relative;
+  background-size: 100% 100%;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all .1s linear;
+  &:hover {
+    opacity: 1;
+    height: 21px;
+    width: 21px;
+  }
+}
+
